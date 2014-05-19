@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, MainActivity!</string>
-    <string name="app_name">EdadGestacional</string>
-
+    <string name="fechaultimamenstruacion">Fecha de Última Menstruación</string>
+    <string name="app_name">Edad Gestacional</string>
+	<string name="fondouterino">Fondo Uterino (cm)</string>
+	<string name="calcular">Calcular</string>
+	<string name="sdg">%.1f SDG</string>
 </resources>
