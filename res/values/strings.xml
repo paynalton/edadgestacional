@@ -6,4 +6,6 @@
 	<string name="fondouterino">Fondo Uterino (cm)</string>
 	<string name="calcular">Calcular</string>
 	<string name="sdg">%.1f SDG</string>
+	<string name="Ayuda">Ayuda</string>
+
 </resources>

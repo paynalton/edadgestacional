@@ -4,8 +4,7 @@ import android.app.*;
 import android.os.*;
 import android.view.*;
 import android.widget.*;
-import java.text.*;
-import java.util.Formatter;
+import android.content.Intent;
 
 public class MainActivity extends Activity
 {
@@ -24,5 +23,9 @@ public class MainActivity extends Activity
 		float resultado=(fu*8)/7;
 		String resf=getResources().getString(R.string.sdg);
 		((TextView)findViewById(R.id.resultado)).setText(String.format(resf,resultado));
+	}
+	public void abrirFaq(View view){
+		Intent I = new Intent(this,faqActivity.class);
+		startActivity(I);
 	}
 }
